@@ -1,0 +1,50 @@
+@import "../../colors.scss";
+
+.Header{
+  height: 50px;
+  background-color: $brand-color-yellow;
+  align-items: center;
+  display: flex;
+  .App-header{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    max-width: 1500px;
+    margin: 0 auto;
+    .center-seach{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1 1;
+      padding: 10px 13%;
+      .App-logo{
+        margin-right: 25px;
+      }
+      .search-box{
+        background: white;
+        padding-right: 0px;
+        border-radius: 4px;
+        display: flex;
+        width: 100%;
+        input{
+          margin: 7px;
+          outline: none;
+          font-size: 18px;
+          background: white;
+          border: 0px;
+          width: 100%;
+        }
+        button{
+          outline: none;
+          background: $brand-color-grey-0;
+          border: 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 0 4px 4px 0;
+          width: 5%;
+        }
+      }
+    }
+  }
+}

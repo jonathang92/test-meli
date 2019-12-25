@@ -1,0 +1,16 @@
+@import "colors.scss";
+
+.content{
+  display: flex;
+  flex: 1 1;
+  padding: 10px 13%;
+  flex-direction: column;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.pages{
+  background-color: white;
+  border-radius: 4px;
+  padding: 16px;
+}

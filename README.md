@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Test práctico Mercado Libre
+
+Test practico aspirante a Mercado Libre.
+Realizado en React.
 
 ## Available Scripts
 

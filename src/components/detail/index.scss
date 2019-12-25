@@ -1,0 +1,64 @@
+@import "../../colors.scss";
+
+.detail{
+  background: white;
+  .product{
+    display: flex;
+    padding: 16px;
+    .product-detail{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 60%;
+      align-items: center;
+      img{
+        width: 76%;
+        border-radius: 4px;
+      }
+      .description{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .description-title{
+          font-size: 28px;
+          font-weight: 600;
+        }
+        .description-content{
+          margin-top: 32px;
+          font-size: 16px;
+          color: $brand-color-grey-2;
+        }
+      }
+    }
+    .Checkout{
+      display: flex;
+      padding-left: 16px;
+      padding-top: 16px;
+      flex-direction: column;
+      max-width: 45%;
+      .quantity{
+        font-size: 14px;
+      }
+      .product-title{
+        margin-top: 16px;
+        font-size: 24px;
+      }
+      .price{
+        font-size: 46px;
+        margin-top: 32px;
+      }
+      .submit{
+        background-color: $brand-color-blue;
+        border: 0px;
+        padding: 10px 80px;
+        color: white;
+        font-size: 17px;
+        border-radius: 4px;
+        margin-top: 32px;
+      }
+      
+    }
+  }
+}

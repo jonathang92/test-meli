@@ -1,0 +1,11 @@
+@import "colors.scss";
+
+body {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 800px;
+  background-color: $brand-color-grey-0;
+  color: $brand-color-grey-3;
+}
